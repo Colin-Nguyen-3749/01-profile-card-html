@@ -1,0 +1,40 @@
+body {
+  background-color: #001f4d; /* Saturated navy background */
+  font-family: 'Segoe UI', 'Arial', sans-serif; /* Modern sans-serif font for all text */
+}
+
+.profile-card {
+  background: #fff; /* White card background */
+  border: 10px solid #335c99; /* Thick, lighter navy border */
+  border-radius: 0; /* No rounded corners */
+  max-width: 400px; /* Limit card width */
+  margin: 40px auto; /* Center card with margin above and below */
+  padding: 2em 1.5em; /* Space inside the card */
+  box-shadow: 0 2px 8px rgba(179,0,0,0.08); /* Subtle shadow for depth */
+}
+
+.profile-card img {
+  width: 160px; /* Make image larger */
+  height: 160px; /* Keep image square */
+  border-radius: 0; /* Remove rounded edges */
+  display: block; /* Block-level for centering */
+  margin: 0 auto 1em auto; /* Center image and add space below */
+}
+
+h1, h2 {
+  text-align: center; /* Center headings */
+  font-family: inherit; /* Use the same font as the body */
+  color: #000; /* Black text for headings */
+}
+
+h1 {
+  font-size: 2.5em; /* Large main heading */
+}
+
+h2 {
+  font-size: 1.8em; /* Slightly smaller subheading */
+}
+
+p, ul, li, h3 {
+  font-family: inherit;
+}
